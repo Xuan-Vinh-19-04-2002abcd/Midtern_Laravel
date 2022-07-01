@@ -6,10 +6,10 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="beta-products-list">
-                            <h4>New product</h4>
+                            <h4><a href="/">Trang chủ</a></h4>
                             <ul class ="vinhabc">
                                 <li class="hoai"><a href="/hoaqua{{1}}">Hoaqua</a> </li>
-                                 <li class="hoai"><a href="/hoaqua{{0}}">Thuc pham kho</a> </li>
+                                 <li class="hoai"><a href="/hoaqua{{0}}">Thực phẩm khô</a> </li>
                             </ul>
                             <div class="beta-products-details">
                                 <p class="pull-left">438 styles found</p>
@@ -44,4 +44,3 @@
                                 @endif
                                 <br>
                                 <br>
-<div>{{$listProduct->links(); }} </div>

@@ -5912,3 +5912,12 @@ li.box-port-filter {
 .history-slider span {
     font-family: "Open Sans", sans-serif;
 }
+.vinhabc{
+    display: flex;
+    margin-left: 500px;
+}
+.hoai{
+    list-style: none;
+    padding: 0 20px;
+    cursor: pointer;
+}

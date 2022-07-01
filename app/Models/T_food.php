@@ -23,4 +23,9 @@ class T_food extends Model
         $product = DB::table($this->table)->where('id',[$id])->first();
         return $product;
     }
+    public function Cate($cate)
+    {
+        $product = DB::table($this->table)->where('status',[$cate])->get();
+        return $product;
+    }
 }

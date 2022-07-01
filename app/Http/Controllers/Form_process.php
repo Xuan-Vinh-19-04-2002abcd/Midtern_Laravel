@@ -39,4 +39,10 @@ class Form_process extends Controller
         $sanpham = $ab->show($id);
         return view('Detail',compact('sanpham'));
     }
+    public function category($cate){
+        $ab = new T_food();
+        $listProduct = $ab->cate($cate);
+        return view('Hoaqua', compact('listProduct'));
+    }
+    
 }

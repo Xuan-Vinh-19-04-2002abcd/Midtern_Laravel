@@ -17,3 +17,4 @@ Route::get('/add-form',[Form_process::class,'index']);
 Route::post('/add-form',[Form_process::class, 'store']);
 Route::get('/', [Form_process::class, 'homepage']);
 Route::get('/detail/{id}', [Form_process::class, 'Deatail']);
+Route::get('/hoaqua{cate}', [Form_process::class, 'category']);
