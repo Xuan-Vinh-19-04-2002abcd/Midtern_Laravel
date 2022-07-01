@@ -26,6 +26,10 @@
                 <label for='inputPromotionPrice'>New Price</label>
                 <input type="number" min=10000 class="form-control" name="inputPromotionPrice" id="inputPromotionPrice" placeholder="Enter promotion price">
             </div>
+             <div class="form-group">
+                <label for='inputPromotionPrice'>Status</label>
+                <input type="number" min=0 max="1" class="form-control" name="inputStatus" id="inputPromotionPrice" placeholder="Enter promotion price">
+            </div>
                  @error('inputPromotionPrice')
                      <span style="color: red">{{$message}}</span>
                  @enderror

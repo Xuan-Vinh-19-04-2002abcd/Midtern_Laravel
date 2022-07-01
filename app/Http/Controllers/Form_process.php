@@ -23,6 +23,7 @@ class Form_process extends Controller
             'old_price' => $request->input('inputPrice'),
             'new_price' => $request->input('inputPromotionPrice'),
             'image' => $name,
+            'status' => $request->input('inputStatus'),
             'descript' => $request->input('inputDescription')
         ];
         $product->InsertData($arr);
